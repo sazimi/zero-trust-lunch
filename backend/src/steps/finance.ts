@@ -7,7 +7,8 @@ export function financeStep(
   employeeResult: EmployeeStepResult
 ): FinanceStepResult {
   const headcount = employeeResult.normalizedEmployees.length;
-  const budgetPerPerson = Number(process.env.LUNCH_BUDGET_PER_PERSON) || 15;
+  const budgetPerPerson = Number(process.env.LUNCH_BUDGET_PER_PERSON) || 20;
+  console.log(`Headcount: ${headcount}, Budget per person: ${budgetPerPerson}`);
   const totalBudget = Number(process.env.HEADCOUNT) * budgetPerPerson;
 
   const totalCost = headcount * budgetPerPerson;

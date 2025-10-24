@@ -15,6 +15,7 @@ export async function runPipeline(
 
   // Step 2: HR - Assess menu with Azure AI Foundry agent
   const hrResult = await hrStep(input);
+  console.log('HR Step Result:', hrResult);
 
   // Step 3: Finance - Calculate costs
   const financeResult = financeStep(employeeResult);
