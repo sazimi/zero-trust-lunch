@@ -1,0 +1,54 @@
+{
+  "demo1": {
+    "name": "Safe Lunch Order",
+    "description": "A balanced, low-risk lunch menu for 8 employees",
+    "input": {
+      "employees": [
+        "Alice Johnson",
+        "Bob Smith",
+        "Carol White",
+        "David Lee",
+        "Eve Martinez",
+        "Frank Chen",
+        "Grace Taylor",
+        "Henry Wilson"
+      ],
+      "lunchMenu": [
+        "Grilled chicken salad",
+        "Quinoa bowl with vegetables",
+        "Turkey sandwich on whole wheat",
+        "Fresh fruit platter",
+        "Sparkling water",
+        "Green tea"
+      ]
+    }
+  },
+  "demo2": {
+    "name": "High-Risk Lunch Order",
+    "description": "A menu with allergens and excessive employee count",
+    "input": {
+      "employees": [
+        "Alice Johnson",
+        "Bob Smith",
+        "Carol White",
+        "David Lee",
+        "Eve Martinez",
+        "Frank Chen",
+        "Grace Taylor",
+        "Henry Wilson",
+        "Ivy Brown",
+        "Jack Davis",
+        "Kelly Moore",
+        "Leo Garcia"
+      ],
+      "lunchMenu": [
+        "Peanut butter cookies",
+        "Shellfish pasta",
+        "Fried chicken with high-sodium sauce",
+        "Dairy-based creamy soup",
+        "Processed meat sandwiches",
+        "Soy sauce glazed salmon"
+      ]
+    }
+  }
+}
